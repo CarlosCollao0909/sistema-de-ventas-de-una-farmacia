@@ -85,7 +85,7 @@
 
             
 
-            <table id="farmaco-table" class="table table-striped">
+            <table id="table1" class="table table-striped">
                 <thead>
                     <tr>
                         <th>Farmaco</th>
@@ -131,7 +131,7 @@
         }
 
         function actualizarTabla() {
-            const tbody = document.getElementById('farmaco-table').getElementsByTagName('tbody')[0];
+            const tbody = document.getElementById('table1').getElementsByTagName('tbody')[0];
             tbody.innerHTML = '';
 
             let total = 0;

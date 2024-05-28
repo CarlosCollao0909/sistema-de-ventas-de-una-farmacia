@@ -38,7 +38,7 @@ include '../includes/navbar.php';
                                     <input type="email" id="email" name="email" class="form-control" required>
                                 </div>
                                 <div class="form-group justify-content-right">
-                                    <a href="<?php echo BASE_URL; ?>clientes/" class="btn btn-default">Volver</a>
+                                    <a href="<?php echo BASE_URL; ?>proveedores/" class="btn btn-default">Volver</a>
                                     <button type="submit" class="btn btn-primary">Guardar</button>
                                 </div>
                             </form>

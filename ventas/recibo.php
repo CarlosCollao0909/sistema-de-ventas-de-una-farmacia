@@ -1,6 +1,6 @@
 <?php
 require '../includes/config.php';
-require_once '../dompdf/autoload.inc.php';
+require_once '../plugins/dompdf/autoload.inc.php';
 
 use Dompdf\Dompdf;
 
