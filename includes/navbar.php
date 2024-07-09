@@ -116,6 +116,36 @@ if (isset($_SESSION['personal'])) {
                 <p> Ventas </p>
               </a>
             </li>
+
+            <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Reportes PDF
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="<?php echo BASE_URL; ?>reportes/clientes.php" class="nav-link" target="_blank">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Clientes Registrados</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo BASE_URL; ?>reportes/farmacos.php" class="nav-link" target="_blank">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Fármacos Registrados</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo BASE_URL; ?>reportes/ventas.php" class="nav-link" target="_blank">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Ventas Realizadas</p>
+                </a>
+              </li>
+            </ul>
+          </li>
           </ul>
           <ul class="navbar-nav">
             <a href="<?php echo BASE_URL; ?>login/logout.php" class="btn btn-sm btn-danger ml-auto mt-20">
